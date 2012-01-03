@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 
 setup(
@@ -7,7 +7,7 @@ setup(
     description='Python APIs for Pivotal Tracker',
     url='http://code.google.com/p/pytracker/',
     package_dir={'': 'src'},
-    packages=find_packages('src'),
+    py_modules=['pytracker'],
     license="Apache"
 )
 
